@@ -1,10 +1,5 @@
-/**
- * Created with JetBrains WebStorm.
- * User: dancrumb
- * Date: 1/19/13
- * Time: 8:13 PM
- * To change this template use File | Settings | File Templates.
- */
+/*jshint dojo:true browser:true strict:false devel:true */
+/*global define:true */
 define([
     'dojo/_base/declare',
     'dojo/dom-construct', 'dojo/_base/lang', 'dojo/_base/window',
@@ -20,7 +15,7 @@ define([
     gmaps) {
     var GMaps = {
         mapOptions: {
-            zoom:11,
+            zoom:14,
             mapType: "ROADMAP"//gmaps.MapTypeId.ROADMAP
         },
 
@@ -41,22 +36,30 @@ define([
             win.global.GM = gmaps;
             on(win.global, 'resize', lang.hitch(this,function(){
                 console.log("Resizing");
+                //noinspection JSPotentiallyInvalidUsageOfThis
                 gmaps.event.trigger(this._map, 'resize');
+                //noinspection JSPotentiallyInvalidUsageOfThis
                 this._map.setZoom( this._map.getZoom() );
-            }))
+            }));
         },
 
         panTo: function(coords) {
             this._map.panTo(new gmaps.LatLng(coords.latitude, coords.longitude));
         },
 
-        addMarkers: function(location, paths) {
+        addMarkers: function(location, paths, title) {
+            var isTitleSet = false;
             return _.map(paths, function (path) {
-                return new gmaps.Marker({
+                var marker = new gmaps.Marker({
                     position: new gmaps.LatLng(location[1], location[0]),
                     icon:path,
                     map: this._map
                 });
+                if(!isTitleSet && !!title) {
+                    marker.setTitle(title);
+                    isTitleSet = true;
+                }
+                return marker;
             }, this);
         },
 

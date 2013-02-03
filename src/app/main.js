@@ -1,3 +1,5 @@
+/*jshint dojo:true browser:true strict:false devel:true */
+/*global define:true */
 require(['lodash', 'amd/d3',
     "dojo/_base/window", "dojo/_base/lang",
     "dojo/parser", "dojo/ready",
@@ -24,7 +26,7 @@ require(['lodash', 'amd/d3',
                 if (navigator.geolocation) {
                     return function (callback, errback) {
                         navigator.geolocation.getCurrentPosition(callback, errback);
-                    }
+                    };
                 } else {
                     return function (callback) {
                         callback(
@@ -41,7 +43,7 @@ require(['lodash', 'amd/d3',
                                 timestamp:(new Date()).getTime()
                             }
                         );
-                    }
+                    };
                 }
             })();
 
@@ -82,7 +84,7 @@ require(['lodash', 'amd/d3',
                 var stationPoints = [];
                 _.forEach(stations, function (station) {
                     var markerIcons = getMarkers(station.lines);
-                    map.addMarkers(station.coords, markerIcons);
+                    map.addMarkers(station.coords, markerIcons, station.name);
                     stationPoints.push(station.coords);
                 });
 
@@ -108,16 +110,21 @@ require(['lodash', 'amd/d3',
                         _.forEach(station.lines, function(line) {
                             if(!_.isArray(stationsByLine[line])) {
                                 stationsByLine[line] = [];
-                            };
+                            }
                             stationsByLine[line].push(stationId);
-                        })
-                    })
+                        });
+                    });
                     console.log(stationsByLine);
 
                     var getStationIdsForLines = function() {
-                        lines = _.flatten([].slice.call(arguments));
+                        var lines = _.flatten([].slice.call(arguments));
 
-                        return _.uniq(_.flatten(_.values(_.pick(stationsByLine,lines))));
+                        return _(stationsByLine)
+                            .pick(lines)
+                            .values()
+                            .flatten()
+                            .uniq()
+                            .value();
                     };
 
                     var boundingRegion = d3.geom.polygon(d3.geom.hull(cookCounty).reverse());
