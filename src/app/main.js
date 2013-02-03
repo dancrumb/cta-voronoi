@@ -16,7 +16,6 @@ require(['lodash', 'amd/d3',
                 registry) {
 
         ready(function(){
-            parser.parse();
 
             var cookCountyData = JSON.parse(cookCountyJSON);
             var cookCounty = d3.geom.polygon(cookCountyData.outline);
@@ -102,7 +101,7 @@ require(['lodash', 'amd/d3',
 
 
                 getStations(function(stations) {
-                    var stationPoints = addStationsToMap(stations,map);
+                    addStationsToMap(stations,map);
 
                     var stationsByLine = {};
                     _.forEach(stations, function(station, stationId) {
