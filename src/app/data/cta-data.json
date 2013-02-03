@@ -1,0 +1,1627 @@
+{
+    "stations": {
+        "40010": {
+            "id": "40010",
+            "name": "Austin",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.870851",
+                "longitude": "-87.776812"
+            }
+        },
+        "40020": {
+            "id": "40020",
+            "name": "Harlem/Lake",
+            "lines": [
+                "Green"
+            ],
+            "location": {
+                "latitude": "41.886848",
+                "longitude": "-87.803176"
+            }
+        },
+        "40030": {
+            "id": "40030",
+            "name": "Pulaski",
+            "lines": [
+                "Green"
+            ],
+            "location": {
+                "latitude": "41.885412",
+                "longitude": "-87.725404"
+            }
+        },
+        "40040": {
+            "id": "40040",
+            "name": "Quincy/Wells",
+            "lines": [
+                "Brown",
+                "Purple",
+                "Pink",
+                "Orange"
+            ],
+            "location": {
+                "latitude": "41.878723",
+                "longitude": "-87.63374"
+            }
+        },
+        "40050": {
+            "id": "40050",
+            "name": "Davis",
+            "lines": [
+                "Purple"
+            ],
+            "location": {
+                "latitude": "42.04771",
+                "longitude": "-87.683543"
+            }
+        },
+        "40060": {
+            "id": "40060",
+            "name": "Belmont",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.938132",
+                "longitude": "-87.712359"
+            }
+        },
+        "40070": {
+            "id": "40070",
+            "name": "Jackson",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.878183",
+                "longitude": "-87.629296"
+            }
+        },
+        "40080": {
+            "id": "40080",
+            "name": "Sheridan",
+            "lines": [
+                "Red"
+            ],
+            "location": {
+                "latitude": "41.953775",
+                "longitude": "-87.654929"
+            }
+        },
+        "40090": {
+            "id": "40090",
+            "name": "Damen",
+            "lines": [
+                "Brown"
+            ],
+            "location": {
+                "latitude": "41.966286",
+                "longitude": "-87.678639"
+            }
+        },
+        "40100": {
+            "id": "40100",
+            "name": "Morse",
+            "lines": [
+                "Red"
+            ],
+            "location": {
+                "latitude": "42.008362",
+                "longitude": "-87.665909"
+            }
+        },
+        "40120": {
+            "id": "40120",
+            "name": "35th/Archer",
+            "lines": [
+                "Orange"
+            ],
+            "location": {
+                "latitude": "41.829353",
+                "longitude": "-87.680622"
+            }
+        },
+        "40130": {
+            "id": "40130",
+            "name": "51st",
+            "lines": [
+                "Green"
+            ],
+            "location": {
+                "latitude": "41.80209",
+                "longitude": "-87.618487"
+            }
+        },
+        "40140": {
+            "id": "40140",
+            "name": "Skokie",
+            "lines": [
+                "Yellow"
+            ],
+            "location": {
+                "latitude": "42.038951",
+                "longitude": "-87.751919"
+            }
+        },
+        "40150": {
+            "id": "40150",
+            "name": "Pulaski",
+            "lines": [
+                "Pink"
+            ],
+            "location": {
+                "latitude": "41.853732",
+                "longitude": "-87.724311"
+            }
+        },
+        "40160": {
+            "id": "40160",
+            "name": "LaSalle/Van Buren",
+            "lines": [
+                "Brown",
+                "Purple",
+                "Pink",
+                "Orange"
+            ],
+            "location": {
+                "latitude": "41.8768",
+                "longitude": "-87.631739"
+            }
+        },
+        "40170": {
+            "id": "40170",
+            "name": "Ashland",
+            "lines": [
+                "Green",
+                "Pink"
+            ],
+            "location": {
+                "latitude": "41.885269",
+                "longitude": "-87.666969"
+            }
+        },
+        "40180": {
+            "id": "40180",
+            "name": "Oak Park",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.872108",
+                "longitude": "-87.791602"
+            }
+        },
+        "40190": {
+            "id": "40190",
+            "name": "Sox-35th",
+            "lines": [
+                "Red"
+            ],
+            "location": {
+                "latitude": "41.831191",
+                "longitude": "-87.630636"
+            }
+        },
+        "40200": {
+            "id": "40200",
+            "name": "Randolph/Wabash",
+            "lines": [
+                "Green",
+                "Brown",
+                "Purple",
+                "Pink",
+                "Orange"
+            ],
+            "location": {
+                "latitude": "41.884431",
+                "longitude": "-87.626149"
+            }
+        },
+        "40210": {
+            "id": "40210",
+            "name": "Damen",
+            "lines": [
+                "Pink"
+            ],
+            "location": {
+                "latitude": "41.854517",
+                "longitude": "-87.675975"
+            }
+        },
+        "40220": {
+            "id": "40220",
+            "name": "Western",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.875478",
+                "longitude": "-87.688436"
+            }
+        },
+        "40230": {
+            "id": "40230",
+            "name": "Cumberland",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.984246",
+                "longitude": "-87.838028"
+            }
+        },
+        "40240": {
+            "id": "40240",
+            "name": "79th",
+            "lines": [
+                "Red"
+            ],
+            "location": {
+                "latitude": "41.750419",
+                "longitude": "-87.625112"
+            }
+        },
+        "40250": {
+            "id": "40250",
+            "name": "Kedzie-Homan",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.874341",
+                "longitude": "-87.70604"
+            }
+        },
+        "40260": {
+            "id": "40260",
+            "name": "State/Lake",
+            "lines": [
+                "Green",
+                "Brown",
+                "Purple",
+                "Pink",
+                "Orange"
+            ],
+            "location": {
+                "latitude": "41.88574",
+                "longitude": "-87.627835"
+            }
+        },
+        "40270": {
+            "id": "40270",
+            "name": "Main",
+            "lines": [
+                "Purple"
+            ],
+            "location": {
+                "latitude": "42.033456",
+                "longitude": "-87.679538"
+            }
+        },
+        "40280": {
+            "id": "40280",
+            "name": "Central",
+            "lines": [
+                "Green"
+            ],
+            "location": {
+                "latitude": "41.887389",
+                "longitude": "-87.76565"
+            }
+        },
+        "40290": {
+            "id": "40290",
+            "name": "Ashland/63rd",
+            "lines": [
+                "Green"
+            ],
+            "location": {
+                "latitude": "41.77886",
+                "longitude": "-87.663766"
+            }
+        },
+        "40300": {
+            "id": "40300",
+            "name": "Indiana",
+            "lines": [
+                "Green"
+            ],
+            "location": {
+                "latitude": "41.821732",
+                "longitude": "-87.621371"
+            }
+        },
+        "40310": {
+            "id": "40310",
+            "name": "Western",
+            "lines": [
+                "Orange"
+            ],
+            "location": {
+                "latitude": "41.804546",
+                "longitude": "-87.684019"
+            }
+        },
+        "40320": {
+            "id": "40320",
+            "name": "Division",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.903355",
+                "longitude": "-87.666496"
+            }
+        },
+        "40330": {
+            "id": "40330",
+            "name": "Grand",
+            "lines": [
+                "Red"
+            ],
+            "location": {
+                "latitude": "41.891665",
+                "longitude": "-87.628021"
+            }
+        },
+        "40340": {
+            "id": "40340",
+            "name": "Berwyn",
+            "lines": [
+                "Red"
+            ],
+            "location": {
+                "latitude": "41.977984",
+                "longitude": "-87.658668"
+            }
+        },
+        "40350": {
+            "id": "40350",
+            "name": "UIC-Halsted",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.875474",
+                "longitude": "-87.649707"
+            }
+        },
+        "40360": {
+            "id": "40360",
+            "name": "Southport",
+            "lines": [
+                "Brown"
+            ],
+            "location": {
+                "latitude": "41.943744",
+                "longitude": "-87.663619"
+            }
+        },
+        "40370": {
+            "id": "40370",
+            "name": "Washington",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.883164",
+                "longitude": "-87.62944"
+            }
+        },
+        "40380": {
+            "id": "40380",
+            "name": "Clark/Lake",
+            "lines": [
+                "Blue",
+                "Green",
+                "Brown",
+                "Purple",
+                "Pink",
+                "Orange"
+            ],
+            "location": {
+                "latitude": "41.885737",
+                "longitude": "-87.630886"
+            }
+        },
+        "40390": {
+            "id": "40390",
+            "name": "Forest Park",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.874257",
+                "longitude": "-87.817318"
+            }
+        },
+        "40400": {
+            "id": "40400",
+            "name": "Noyes",
+            "lines": [
+                "Purple"
+            ],
+            "location": {
+                "latitude": "42.058282",
+                "longitude": "-87.683337"
+            }
+        },
+        "40420": {
+            "id": "40420",
+            "name": "Cicero",
+            "lines": [
+                "Pink"
+            ],
+            "location": {
+                "latitude": "41.85182",
+                "longitude": "-87.745336"
+            }
+        },
+        "40430": {
+            "id": "40430",
+            "name": "Clinton",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.875539",
+                "longitude": "-87.640984"
+            }
+        },
+        "40440": {
+            "id": "40440",
+            "name": "California",
+            "lines": [
+                "Pink"
+            ],
+            "location": {
+                "latitude": "41.854109",
+                "longitude": "-87.694774"
+            }
+        },
+        "40450": {
+            "id": "40450",
+            "name": "95th/Ran Ryan",
+            "lines": [
+                "Red"
+            ],
+            "location": {
+                "latitude": "41.722377",
+                "longitude": "-87.624342"
+            }
+        },
+        "40460": {
+            "id": "40460",
+            "name": "Merchandise Mart",
+            "lines": [
+                "Brown",
+                "Purple"
+            ],
+            "location": {
+                "latitude": "41.888969",
+                "longitude": "-87.633924"
+            }
+        },
+        "40470": {
+            "id": "40470",
+            "name": "Racine",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.87592",
+                "longitude": "-87.659458"
+            }
+        },
+        "40480": {
+            "id": "40480",
+            "name": "Cicero",
+            "lines": [
+                "Green"
+            ],
+            "location": {
+                "latitude": "41.886519",
+                "longitude": "-87.744698"
+            }
+        },
+        "40490": {
+            "id": "40490",
+            "name": "Grand",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.891189",
+                "longitude": "-87.647578"
+            }
+        },
+        "40510": {
+            "id": "40510",
+            "name": "Garfield",
+            "lines": [
+                "Green"
+            ],
+            "location": {
+                "latitude": "41.795172",
+                "longitude": "-87.618327"
+            }
+        },
+        "40520": {
+            "id": "40520",
+            "name": "Foster",
+            "lines": [
+                "Purple"
+            ],
+            "location": {
+                "latitude": "42.05416",
+                "longitude": "-87.68356"
+            }
+        },
+        "40530": {
+            "id": "40530",
+            "name": "Diversey",
+            "lines": [
+                "Brown",
+                "Purple"
+            ],
+            "location": {
+                "latitude": "41.932732",
+                "longitude": "-87.653131"
+            }
+        },
+        "40540": {
+            "id": "40540",
+            "name": "Wilson",
+            "lines": [
+                "Red"
+            ],
+            "location": {
+                "latitude": "41.964273",
+                "longitude": "-87.657588"
+            }
+        },
+        "40550": {
+            "id": "40550",
+            "name": "Irving Park",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.952925",
+                "longitude": "-87.729229"
+            }
+        },
+        "40560": {
+            "id": "40560",
+            "name": "Jackson",
+            "lines": [
+                "Red"
+            ],
+            "location": {
+                "latitude": "41.878153",
+                "longitude": "-87.627596"
+            }
+        },
+        "40570": {
+            "id": "40570",
+            "name": "California",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.921939",
+                "longitude": "-87.69689"
+            }
+        },
+        "40580": {
+            "id": "40580",
+            "name": "54th/Cermak",
+            "lines": [
+                "Pink"
+            ],
+            "location": {
+                "latitude": "41.85177331",
+                "longitude": "-87.75669201"
+            }
+        },
+        "40590": {
+            "id": "40590",
+            "name": "Damen",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.909744",
+                "longitude": "-87.677437"
+            }
+        },
+        "40600": {
+            "id": "40600",
+            "name": "Kostner",
+            "lines": [
+                "Pink"
+            ],
+            "location": {
+                "latitude": "41.853751",
+                "longitude": "-87.733258"
+            }
+        },
+        "40610": {
+            "id": "40610",
+            "name": "Ridgeland",
+            "lines": [
+                "Green"
+            ],
+            "location": {
+                "latitude": "41.887159",
+                "longitude": "-87.783661"
+            }
+        },
+        "40630": {
+            "id": "40630",
+            "name": "Clark/Division",
+            "lines": [
+                "Red"
+            ],
+            "location": {
+                "latitude": "41.90392",
+                "longitude": "-87.631412"
+            }
+        },
+        "40640": {
+            "id": "40640",
+            "name": "Madison/Wabash",
+            "lines": [
+                "Green",
+                "Brown",
+                "Purple",
+                "Pink",
+                "Orange"
+            ],
+            "location": {
+                "latitude": "41.882023",
+                "longitude": "-87.626098"
+            }
+        },
+        "40650": {
+            "id": "40650",
+            "name": "North/Clybourn",
+            "lines": [
+                "Red"
+            ],
+            "location": {
+                "latitude": "41.910655",
+                "longitude": "-87.649177"
+            }
+        },
+        "40660": {
+            "id": "40660",
+            "name": "Armitage",
+            "lines": [
+                "Brown",
+                "Purple"
+            ],
+            "location": {
+                "latitude": "41.918217",
+                "longitude": "-87.652644"
+            }
+        },
+        "40670": {
+            "id": "40670",
+            "name": "Western",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.916157",
+                "longitude": "-87.687364"
+            }
+        },
+        "40680": {
+            "id": "40680",
+            "name": "Adams/Wabash",
+            "lines": [
+                "Green",
+                "Brown",
+                "Purple",
+                "Pink",
+                "Orange"
+            ],
+            "location": {
+                "latitude": "41.879507",
+                "longitude": "-87.626037"
+            }
+        },
+        "40690": {
+            "id": "40690",
+            "name": "Dempster",
+            "lines": [
+                "Purple"
+            ],
+            "location": {
+                "latitude": "42.041655",
+                "longitude": "-87.681602"
+            }
+        },
+        "40700": {
+            "id": "40700",
+            "name": "Laramie",
+            "lines": [
+                "Green"
+            ],
+            "location": {
+                "latitude": "41.887163",
+                "longitude": "-87.754986"
+            }
+        },
+        "40710": {
+            "id": "40710",
+            "name": "Chicago",
+            "lines": [
+                "Brown",
+                "Purple"
+            ],
+            "location": {
+                "latitude": "41.89681",
+                "longitude": "-87.635924"
+            }
+        },
+        "40720": {
+            "id": "40720",
+            "name": "Cottage Grove",
+            "lines": [
+                "Green"
+            ],
+            "location": {
+                "latitude": "41.780309",
+                "longitude": "-87.605857"
+            }
+        },
+        "40730": {
+            "id": "40730",
+            "name": "Washington/Wells",
+            "lines": [
+                "Brown",
+                "Purple",
+                "Pink",
+                "Orange"
+            ],
+            "location": {
+                "latitude": "41.882695",
+                "longitude": "-87.63378"
+            }
+        },
+        "40740": {
+            "id": "40740",
+            "name": "Western",
+            "lines": [
+                "Pink"
+            ],
+            "location": {
+                "latitude": "41.854225",
+                "longitude": "-87.685129"
+            }
+        },
+        "40750": {
+            "id": "40750",
+            "name": "Harlem",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.98227",
+                "longitude": "-87.8089"
+            }
+        },
+        "40760": {
+            "id": "40760",
+            "name": "Granville",
+            "lines": [
+                "Red"
+            ],
+            "location": {
+                "latitude": "41.993664",
+                "longitude": "-87.659202"
+            }
+        },
+        "40770": {
+            "id": "40770",
+            "name": "Lawrence",
+            "lines": [
+                "Red"
+            ],
+            "location": {
+                "latitude": "41.969139",
+                "longitude": "-87.658493"
+            }
+        },
+        "40780": {
+            "id": "40780",
+            "name": "Central Park",
+            "lines": [
+                "Pink"
+            ],
+            "location": {
+                "latitude": "41.853839",
+                "longitude": "-87.714842"
+            }
+        },
+        "40790": {
+            "id": "40790",
+            "name": "Monroe",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.880703",
+                "longitude": "-87.629378"
+            }
+        },
+        "40800": {
+            "id": "40800",
+            "name": "Sedgwick",
+            "lines": [
+                "Brown",
+                "Purple"
+            ],
+            "location": {
+                "latitude": "41.910409",
+                "longitude": "-87.639302"
+            }
+        },
+        "40810": {
+            "id": "40810",
+            "name": "Illinois Medical District",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.875706",
+                "longitude": "-87.673932"
+            }
+        },
+        "40820": {
+            "id": "40820",
+            "name": "Rosemont",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.983507",
+                "longitude": "-87.859388"
+            }
+        },
+        "40830": {
+            "id": "40830",
+            "name": "18th",
+            "lines": [
+                "Pink"
+            ],
+            "location": {
+                "latitude": "41.857908",
+                "longitude": "-87.669147"
+            }
+        },
+        "40840": {
+            "id": "40840",
+            "name": "South Boulevard",
+            "lines": [
+                "Purple"
+            ],
+            "location": {
+                "latitude": "42.027612",
+                "longitude": "-87.678329"
+            }
+        },
+        "40850": {
+            "id": "40850",
+            "name": "Harold Washington Library-State/Van Buren",
+            "lines": [
+                "Brown",
+                "Purple",
+                "Pink",
+                "Orange"
+            ],
+            "location": {
+                "latitude": "41.876862",
+                "longitude": "-87.628196"
+            }
+        },
+        "40870": {
+            "id": "40870",
+            "name": "Francisco",
+            "lines": [
+                "Brown"
+            ],
+            "location": {
+                "latitude": "41.966046",
+                "longitude": "-87.701644"
+            }
+        },
+        "40880": {
+            "id": "40880",
+            "name": "Thorndale",
+            "lines": [
+                "Red"
+            ],
+            "location": {
+                "latitude": "41.990259",
+                "longitude": "-87.659076"
+            }
+        },
+        "40890": {
+            "id": "40890",
+            "name": "O'Hare",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.97766526",
+                "longitude": "-87.90422307"
+            }
+        },
+        "40900": {
+            "id": "40900",
+            "name": "Howard",
+            "lines": [
+                "Red",
+                "Purple",
+                "Yellow"
+            ],
+            "location": {
+                "latitude": "42.019063",
+                "longitude": "-87.672892"
+            }
+        },
+        "40910": {
+            "id": "40910",
+            "name": "63rd",
+            "lines": [
+                "Red"
+            ],
+            "location": {
+                "latitude": "41.780536",
+                "longitude": "-87.630952"
+            }
+        },
+        "40920": {
+            "id": "40920",
+            "name": "Pulaski",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.873797",
+                "longitude": "-87.725663"
+            }
+        },
+        "40930": {
+            "id": "40930",
+            "name": "Midway",
+            "lines": [
+                "Orange"
+            ],
+            "location": {
+                "latitude": "41.78661",
+                "longitude": "-87.737875"
+            }
+        },
+        "40940": {
+            "id": "40940",
+            "name": "Halsted",
+            "lines": [
+                "Green"
+            ],
+            "location": {
+                "latitude": "41.778943",
+                "longitude": "-87.644244"
+            }
+        },
+        "40960": {
+            "id": "40960",
+            "name": "Pulaski",
+            "lines": [
+                "Orange"
+            ],
+            "location": {
+                "latitude": "41.799756",
+                "longitude": "-87.724493"
+            }
+        },
+        "40970": {
+            "id": "40970",
+            "name": "Cicero",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.871574",
+                "longitude": "-87.745154"
+            }
+        },
+        "40980": {
+            "id": "40980",
+            "name": "Harlem",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.87349",
+                "longitude": "-87.806961"
+            }
+        },
+        "40990": {
+            "id": "40990",
+            "name": "69th",
+            "lines": [
+                "Red"
+            ],
+            "location": {
+                "latitude": "41.768367",
+                "longitude": "-87.625724"
+            }
+        },
+        "41000": {
+            "id": "41000",
+            "name": "Cermak-Chinatown",
+            "lines": [
+                "Red"
+            ],
+            "location": {
+                "latitude": "41.853206",
+                "longitude": "-87.630968"
+            }
+        },
+        "41010": {
+            "id": "41010",
+            "name": "Rockwell",
+            "lines": [
+                "Brown"
+            ],
+            "location": {
+                "latitude": "41.966115",
+                "longitude": "-87.6941"
+            }
+        },
+        "41020": {
+            "id": "41020",
+            "name": "Logan Square",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.929728",
+                "longitude": "-87.708541"
+            }
+        },
+        "41030": {
+            "id": "41030",
+            "name": "Polk",
+            "lines": [
+                "Pink"
+            ],
+            "location": {
+                "latitude": "41.871551",
+                "longitude": "-87.66953"
+            }
+        },
+        "41040": {
+            "id": "41040",
+            "name": "Kedzie",
+            "lines": [
+                "Pink"
+            ],
+            "location": {
+                "latitude": "41.853964",
+                "longitude": "-87.705408"
+            }
+        },
+        "41050": {
+            "id": "41050",
+            "name": "Linden",
+            "lines": [
+                "Purple"
+            ],
+            "location": {
+                "latitude": "42.073153",
+                "longitude": "-87.69073"
+            }
+        },
+        "41060": {
+            "id": "41060",
+            "name": "Ashland",
+            "lines": [
+                "Orange"
+            ],
+            "location": {
+                "latitude": "41.839234",
+                "longitude": "-87.665317"
+            }
+        },
+        "41070": {
+            "id": "41070",
+            "name": "Kedzie",
+            "lines": [
+                "Green"
+            ],
+            "location": {
+                "latitude": "41.884321",
+                "longitude": "-87.706155"
+            }
+        },
+        "41080": {
+            "id": "41080",
+            "name": "47th",
+            "lines": [
+                "Green"
+            ],
+            "location": {
+                "latitude": "41.809209",
+                "longitude": "-87.618826"
+            }
+        },
+        "41090": {
+            "id": "41090",
+            "name": "Monroe",
+            "lines": [
+                "Red"
+            ],
+            "location": {
+                "latitude": "41.880745",
+                "longitude": "-87.627696"
+            }
+        },
+        "41120": {
+            "id": "41120",
+            "name": "35th-Bronzeville-IIT",
+            "lines": [
+                "Green"
+            ],
+            "location": {
+                "latitude": "41.831677",
+                "longitude": "-87.625826"
+            }
+        },
+        "41130": {
+            "id": "41130",
+            "name": "Halsted",
+            "lines": [
+                "Orange"
+            ],
+            "location": {
+                "latitude": "41.84678",
+                "longitude": "-87.648088"
+            }
+        },
+        "41140": {
+            "id": "41140",
+            "name": "King Drive",
+            "lines": [
+                "Green"
+            ],
+            "location": {
+                "latitude": "41.78013",
+                "longitude": "-87.615546"
+            }
+        },
+        "41150": {
+            "id": "41150",
+            "name": "Kedzie",
+            "lines": [
+                "Orange"
+            ],
+            "location": {
+                "latitude": "41.804236",
+                "longitude": "-87.704406"
+            }
+        },
+        "41160": {
+            "id": "41160",
+            "name": "Clinton",
+            "lines": [
+                "Green",
+                "Pink"
+            ],
+            "location": {
+                "latitude": "41.885678",
+                "longitude": "-87.641782"
+            }
+        },
+        "41170": {
+            "id": "41170",
+            "name": "Garfield",
+            "lines": [
+                "Red"
+            ],
+            "location": {
+                "latitude": "41.79542",
+                "longitude": "-87.631157"
+            }
+        },
+        "41180": {
+            "id": "41180",
+            "name": "Kedzie",
+            "lines": [
+                "Brown"
+            ],
+            "location": {
+                "latitude": "41.965996",
+                "longitude": "-87.708821"
+            }
+        },
+        "41190": {
+            "id": "41190",
+            "name": "Jarvis",
+            "lines": [
+                "Red"
+            ],
+            "location": {
+                "latitude": "42.015876",
+                "longitude": "-87.669092"
+            }
+        },
+        "41200": {
+            "id": "41200",
+            "name": "Argyle",
+            "lines": [
+                "Red"
+            ],
+            "location": {
+                "latitude": "41.973453",
+                "longitude": "-87.65853"
+            }
+        },
+        "41210": {
+            "id": "41210",
+            "name": "Wellington",
+            "lines": [
+                "Brown",
+                "Purple"
+            ],
+            "location": {
+                "latitude": "41.936033",
+                "longitude": "-87.653266"
+            }
+        },
+        "41220": {
+            "id": "41220",
+            "name": "Fullerton",
+            "lines": [
+                "Brown",
+                "Purple",
+                "Red"
+            ],
+            "location": {
+                "latitude": "41.925051",
+                "longitude": "-87.652866"
+            }
+        },
+        "41230": {
+            "id": "41230",
+            "name": "47th",
+            "lines": [
+                "Red"
+            ],
+            "location": {
+                "latitude": "41.810318",
+                "longitude": "-87.63094"
+            }
+        },
+        "41240": {
+            "id": "41240",
+            "name": "Addison",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.94738",
+                "longitude": "-87.71906"
+            }
+        },
+        "41250": {
+            "id": "41250",
+            "name": "Central",
+            "lines": [
+                "Purple"
+            ],
+            "location": {
+                "latitude": "42.063987",
+                "longitude": "-87.685617"
+            }
+        },
+        "41260": {
+            "id": "41260",
+            "name": "Austin",
+            "lines": [
+                "Green"
+            ],
+            "location": {
+                "latitude": "41.887293",
+                "longitude": "-87.774135"
+            }
+        },
+        "41270": {
+            "id": "41270",
+            "name": "43rd",
+            "lines": [
+                "Green"
+            ],
+            "location": {
+                "latitude": "41.816462",
+                "longitude": "-87.619021"
+            }
+        },
+        "41280": {
+            "id": "41280",
+            "name": "Jefferson Park",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.970634",
+                "longitude": "-87.760892"
+            }
+        },
+        "41290": {
+            "id": "41290",
+            "name": "Kimball",
+            "lines": [
+                "Brown"
+            ],
+            "location": {
+                "latitude": "41.967901",
+                "longitude": "-87.713065"
+            }
+        },
+        "41300": {
+            "id": "41300",
+            "name": "Loyola",
+            "lines": [
+                "Red"
+            ],
+            "location": {
+                "latitude": "42.001073",
+                "longitude": "-87.661061"
+            }
+        },
+        "41310": {
+            "id": "41310",
+            "name": "Paulina",
+            "lines": [
+                "Brown"
+            ],
+            "location": {
+                "latitude": "41.943623",
+                "longitude": "-87.670907"
+            }
+        },
+        "41320": {
+            "id": "41320",
+            "name": "Belmont",
+            "lines": [
+                "Brown",
+                "Purple",
+                "Red"
+            ],
+            "location": {
+                "latitude": "41.939751",
+                "longitude": "-87.65338"
+            }
+        },
+        "41330": {
+            "id": "41330",
+            "name": "Montrose",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.961539",
+                "longitude": "-87.743574"
+            }
+        },
+        "41340": {
+            "id": "41340",
+            "name": "LaSalle",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.875568",
+                "longitude": "-87.631722"
+            }
+        },
+        "41350": {
+            "id": "41350",
+            "name": "Oak Park",
+            "lines": [
+                "Green"
+            ],
+            "location": {
+                "latitude": "41.886988",
+                "longitude": "-87.793783"
+            }
+        },
+        "41360": {
+            "id": "41360",
+            "name": "California",
+            "lines": [
+                "Green"
+            ],
+            "location": {
+                "latitude": "41.88422",
+                "longitude": "-87.696234"
+            }
+        },
+        "41380": {
+            "id": "41380",
+            "name": "Bryn Mawr",
+            "lines": [
+                "Red"
+            ],
+            "location": {
+                "latitude": "41.983504",
+                "longitude": "-87.65884"
+            }
+        },
+        "41400": {
+            "id": "41400",
+            "name": "Roosevelt",
+            "lines": [
+                "Red",
+                "Green",
+                "Orange"
+            ],
+            "location": {
+                "latitude": "41.867368",
+                "longitude": "-87.627402"
+            }
+        },
+        "41410": {
+            "id": "41410",
+            "name": "Chicago",
+            "lines": [
+                "Blue"
+            ],
+            "location": {
+                "latitude": "41.896075",
+                "longitude": "-87.655214"
+            }
+        },
+        "41420": {
+            "id": "41420",
+            "name": "Addison",
+            "lines": [
+                "Red"
+            ],
+            "location": {
+                "latitude": "41.947428",
+                "longitude": "-87.653626"
+            }
+        },
+        "41430": {
+            "id": "41430",
+            "name": "87th",
+            "lines": [
+                "Red"
+            ],
+            "location": {
+                "latitude": "41.735372",
+                "longitude": "-87.624717"
+            }
+        },
+        "41440": {
+            "id": "41440",
+            "name": "Addison",
+            "lines": [
+                "Brown"
+            ],
+            "location": {
+                "latitude": "41.947028",
+                "longitude": "-87.674642"
+            }
+        },
+        "41450": {
+            "id": "41450",
+            "name": "Chicago",
+            "lines": [
+                "Red"
+            ],
+            "location": {
+                "latitude": "41.896671",
+                "longitude": "-87.628176"
+            }
+        },
+        "41460": {
+            "id": "41460",
+            "name": "Irving Park",
+            "lines": [
+                "Brown"
+            ],
+            "location": {
+                "latitude": "41.954521",
+                "longitude": "-87.674868"
+            }
+        },
+        "41480": {
+            "id": "41480",
+            "name": "Western",
+            "lines": [
+                "Brown"
+            ],
+            "location": {
+                "latitude": "41.966163",
+                "longitude": "-87.688502"
+            }
+        },
+        "41490": {
+            "id": "41490",
+            "name": "Harrison",
+            "lines": [
+                "Red"
+            ],
+            "location": {
+                "latitude": "41.874039",
+                "longitude": "-87.627479"
+            }
+        },
+        "41500": {
+            "id": "41500",
+            "name": "Montrose",
+            "lines": [
+                "Brown"
+            ],
+            "location": {
+                "latitude": "41.961756",
+                "longitude": "-87.675047"
+            }
+        },
+        "41510": {
+            "id": "41510",
+            "name": "Morgan",
+            "lines": [
+                "Green",
+                "Pink"
+            ],
+            "location": {
+                "latitude": "41.885586",
+                "longitude": "-87.652193"
+            }
+        },
+        "41660": {
+            "id": "41660",
+            "name": "Lake",
+            "lines": [
+                "Red"
+            ],
+            "location": {
+                "latitude": "41.884809",
+                "longitude": "-87.627813"
+            }
+        },
+        "41670": {
+            "id": "41670",
+            "name": "Conservatory",
+            "lines": [
+                "Green"
+            ],
+            "location": {
+                "latitude": "41.884904",
+                "longitude": "-87.716523"
+            }
+        },
+        "41680": {
+            "id": "41680",
+            "name": "Oakton-Skokie",
+            "lines": [
+                "Yellow"
+            ],
+            "location": {
+                "latitude": "42.02624348",
+                "longitude": "-87.74722084"
+            }
+        }
+    }
+}
