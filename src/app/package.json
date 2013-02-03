@@ -1,0 +1,11 @@
+{
+    "name": "app",
+    "description": "CTA Voronoi",
+    "version": "0.2",
+    "dojoBuild": "../profiles/app.profile.js",
+    "dependencies": {
+        "dojo"  : "1.8.3",
+        "lodash": "1.0.0",
+        "d3"    : "3.0.2"
+    }
+}

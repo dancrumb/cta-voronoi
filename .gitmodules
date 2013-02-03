@@ -1,0 +1,18 @@
+[submodule "modules/lodash"]
+	path = modules/lodash
+	url = https://github.com/bestiejs/lodash.git
+[submodule "modules/d3"]
+	path = modules/d3
+	url = https://github.com/mbostock/d3.git
+[submodule "src/dojo"]
+	path = src/dojo
+	url = https://github.com/dojo/dojo.git
+[submodule "src/dojox"]
+	path = src/dojox
+	url = https://github.com/dojo/dojox.git
+[submodule "src/dijit"]
+	path = src/dijit
+	url = https://github.com/dojo/dijit.git
+[submodule "src/util"]
+	path = src/util
+	url = https://github.com/dojo/util.git

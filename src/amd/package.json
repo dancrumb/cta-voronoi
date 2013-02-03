@@ -1,0 +1,5 @@
+{
+    "name": "amd",
+    "description": "AMD Wrappers around non-AMD libraries",
+    "dojoBuild": "amd.profile.js"
+}
