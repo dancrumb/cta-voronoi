@@ -1,11 +1,5 @@
-/**
- * Created with JetBrains WebStorm.
- * User: dancrumb
- * Date: 1/19/13
- * Time: 9:50 PM
- * To change this template use File | Settings | File Templates.
- */
-
+/*jshint dojo:true browser:true strict:false devel:true */
+/*global define:true */
 define(['lodash','dojo/_base/declare','dojo/Stateful'], function(_, declare, Stateful) {
 
     var LINE_LIST = ["Brown", "Blue","Purple","Yellow","Orange","Red","Pink", "Green"].sort();
@@ -29,6 +23,20 @@ define(['lodash','dojo/_base/declare','dojo/Stateful'], function(_, declare, Sta
 
         _selectedLinesSetter: function() {
             throw Error("Can't set selectedLines directly at the moment");
+        },
+
+        /**
+         * Flips a line on or off
+         * @param line The Line who's state to flip.
+         */
+        toggle: function(line) {
+            if(!!line) {
+                this.set(line, !this.get(line));
+            }
+        },
+
+        _allLinesGetter: function() {
+            return _.clone(LINE_LIST);
         }
     };
 

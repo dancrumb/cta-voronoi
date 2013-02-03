@@ -6,10 +6,14 @@
     <script src="app/run.js"></script>
 
     <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="dijit/themes/claro/claro.css">
 </head>
 <body>
     <div data-dojo-id="lineModel" data-dojo-type="app/Lines"></div>
     <div data-dojo-type="app/GMaps" id="map"></div>
+    <div data-dojo-type="app/widgets/LineSelector" data-dojo-props="
+        model: 'lineModel'
+    "></div>
 
 </body>
 </html>

@@ -8,3 +8,7 @@ body {
     height: 90%;
     width: 90%
 }
+
+.dijitChecked {
+    background-color: #bbbbbb;
+}
