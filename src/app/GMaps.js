@@ -50,6 +50,9 @@ define([
         addMarkers: function(location, paths, title) {
             var isTitleSet = false;
             return _.map(paths, function (path) {
+                if(_.isString(path)) {
+                    path = new gmaps.MarkerImage(path);
+                }
                 var marker = new gmaps.Marker({
                     position: new gmaps.LatLng(location[1], location[0]),
                     icon:path,
