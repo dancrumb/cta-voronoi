@@ -2,25 +2,48 @@
 /*global define:true */
 require(['lodash', 'amd/d3',
     "dojo/_base/window", "dojo/_base/lang",
+    'dojo/json',
     "dojo/parser", "dojo/ready",
     'app/symbols',
-         'dojo/text!app/data/cookCounty.json',
-        'dojo/text!app/data/cta-data.json',
-         'dojo/json',
-    'dijit/registry'],
+    'dojo/text!app/data/cookCounty.json', 'dojo/text!app/data/cta-data.json',
+    'dijit/registry',
+        'app/Lines', 'app/GMaps', 'app/widgets/LineSelector'],
     function (_, d3,
               window, lang,
+              JSON,
               parser, ready,
               getMarkers,
-              cookCountyJSON,
-              ctaDataJSON,
-                JSON,
-                registry) {
+              cookCountyJSON, ctaDataJSON,
+              registry) {
 
         ready(function(){
 
             var cookCountyData = JSON.parse(cookCountyJSON);
             var cookCounty = d3.geom.polygon(cookCountyData.outline);
+            var cookCountyBB = {
+                sw: {
+                    latitude: 90,
+                    longitude: 180
+                },
+                ne: {
+                    latitude: 0,
+                    longitude: -180
+                }
+            };
+            _.forEach(cookCountyData.outline,function(point) {
+                if(point[0] < cookCountyBB.sw.longitude) {
+                    cookCountyBB.sw.longitude = point[0];
+                }
+                if(point[0] > cookCountyBB.ne.longitude) {
+                    cookCountyBB.ne.longitude = point[0];
+                }
+                if(point[1] < cookCountyBB.sw.latitude) {
+                    cookCountyBB.sw.latitude = point[1];
+                }
+                if(point[1] > cookCountyBB.ne.latitude) {
+                    cookCountyBB.ne.latitude = point[1];
+                }
+            });
 
             var getLocation = (function () {
                 if (navigator.geolocation) {
@@ -100,7 +123,7 @@ require(['lodash', 'amd/d3',
             getLocation(function(position) {
                 map.panTo(position.coords);
                 map.addPolygon(cookCounty);
-
+                map.addMarkers([position.coords.longitude, position.coords.latitude], ['http://maps.google.com/mapfiles/ms/icons/red-dot.png']);
 
                 getStations(function(stations) {
                     addStationsToMap(stations,map);
@@ -114,7 +137,6 @@ require(['lodash', 'amd/d3',
                             stationsByLine[line].push(stationId);
                         });
                     });
-                    console.log(stationsByLine);
 
                     var getStationIdsForLines = function() {
                         var lines = _.flatten([].slice.call(arguments));
