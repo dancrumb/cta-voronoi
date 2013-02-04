@@ -73,6 +73,7 @@ define([
                         checked: this.model.get(line),
                         label: line,
                         onChange: lang.hitch(this, function(val) {
+                            //noinspection JSPotentiallyInvalidUsageOfThis
                             this.model.set(line,val);
                         })
                     });

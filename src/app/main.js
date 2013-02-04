@@ -200,7 +200,7 @@ require(['lodash', 'amd/d3',
 
                     var currVoronoiKey = getSelectedLines().join(":");
 
-                    window.global.lineModel.watch(function(line, oldVal ,newVal) {
+                    window.global.lineModel.watch(function() {
                         _.forEach(voronois[currVoronoiKey], function(cell) {
                             map.removePolygon(cell);
                         });

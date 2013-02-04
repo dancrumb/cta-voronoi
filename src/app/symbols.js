@@ -1,5 +1,7 @@
+/*jshint dojo:true browser:true devel:true */
+/*global define:true */
 define(["lodash"], function(_){
-
+    'use strict';
     var STARTPOS = "M 0 0 ";
     var pathsets = [
         [],
@@ -70,7 +72,7 @@ define(["lodash"], function(_){
                 lines = lines.concat(lines);
             }
 
-            iconCache[cacheKey] = _.map(linePaths, function(val, index, coll) {
+            iconCache[cacheKey] = _.map(linePaths, function(val, index) {
                 return {
                     path: val,
                     fillColor: lineMap[lines[index]] || "grey",
