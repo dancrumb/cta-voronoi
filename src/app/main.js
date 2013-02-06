@@ -45,6 +45,8 @@ require(['lodash', 'amd/d3',
                 }
             });
 
+            registry.byId('finder').set('boundingBox', cookCountyBB);
+
             var getLocation = (function () {
                 if (navigator.geolocation) {
                     return function (callback, errback) {

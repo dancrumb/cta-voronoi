@@ -4,15 +4,17 @@ define([
     'lodash',
     'dojo/_base/declare', "dojo/_base/window", 'dojo/_base/lang',
     'dojo/dom-construct',
-    'dijit/_WidgetBase', 'dijit/_TemplatedMixin',
-    'dojo/text!./templates/LineSelector.html',
-    'amd/gmaps!'
+    'dijit/_WidgetBase', 'dijit/_TemplatedMixin', 'dijit/_WidgetsInTemplateMixin',
+    'dojo/text!./templates/AddressFinder.html',
+    'amd/gmaps!',
+
+        'dijit/form/ComboBox', 'app/widgets/GeocoderStore'
 
 ], function(
     _,
     declare, win, lang,
     domConstruct,
-    _WidgetBase, _TemplatedMixin,
+    _WidgetBase, _TemplatedMixin, _WidgetsInTemplateMixin,
     template,
     gmaps
 
@@ -22,34 +24,30 @@ define([
      * @class app/widgets/AddressFinder
      * @extends dijit/_WidgetBase
      * @mixes dijit/_TemplatedMixin
+     * @mixes dijit/_WidgetsInTemplateMixin
      */
-    return declare("app/widgets/AddressFinder", [_WidgetBase, _TemplatedMixin],
+    return declare("app/widgets/AddressFinder", [_WidgetBase, _TemplatedMixin, _WidgetsInTemplateMixin],
         /**
          * @lends app/widgets/AddressFinder
          */
         {
-            _geocoder: null,
+            geoStore: null,
+            searchBox: null,
+            optionsList: null,
 
             _boundingBox: null,
 
-            constructor: function() {
-                this._geocoder = new gmaps.Geocoder();
-            },
+            templateString: template,
 
-            /**
-             * @ignore
-             */
-            postMixInProperties: function() {
-                this.inherited(arguments);
-            },
-
-            /**
-             * @ignore
-             */
             postCreate: function() {
                 this.inherited(arguments);
-            }
+                this.searchBox.set('store', this.geoStore);
+            },
 
+            _setBoundingBoxAttr: function(bb) {
+                this._boundingBox = bb;
+                this.geoStore.set('boundingBox', bb);
+            }
         }
     );
 

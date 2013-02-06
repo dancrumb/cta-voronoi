@@ -6,14 +6,16 @@
  */
 define([
     "dojo/_base/kernel",
-    "dojo/request/script"
-], function(kernel, script) {
+    "dojo/request/script",
+    'dojo/text!./gmaps-api.key'
+], function(kernel, script,
+    apiKey) {
 
     return {
         load: function(param, req, loadCallback) {
             script.get('https://maps.googleapis.com/maps/api/js', {
                 query: {
-                    key: "REDACTED",
+                    key: apiKey,
                     sensor: false
                 },
                 jsonp: 'callback'

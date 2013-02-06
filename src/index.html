@@ -20,9 +20,10 @@
 </head>
 <body>
     <div data-dojo-id="lineModel" data-dojo-type="app/Lines"></div>
+    <div data-dojo-type="app/widgets/AddressFinder" id="finder"></div>
     <div data-dojo-type="app/GMaps" id="map"></div>
     <div data-dojo-type="app/widgets/LineSelector" data-dojo-props="
-        model: 'lineModel'
+        model: lineModel
     "></div>
 
 </body>
