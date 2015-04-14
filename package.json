@@ -1,0 +1,22 @@
+{
+  "name": "cta-voronoi",
+  "version": "1.0.0",
+  "description": "Voronoi Diagram of CTA stop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://dancrumb@github.com/dancrumb/cta-voronoi.git"
+  },
+  "author": "Dan Rumney <dancrumb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dancrumb/cta-voronoi/issues"
+  },
+  "homepage": "https://github.com/dancrumb/cta-voronoi",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}

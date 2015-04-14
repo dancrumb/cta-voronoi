@@ -1,8 +1,7 @@
 .idea/
 *.iml
 
-src/lodash/
-src/d3/
-src/less/
+node_modules/
+bower_components/
 
 gmaps-api.key
