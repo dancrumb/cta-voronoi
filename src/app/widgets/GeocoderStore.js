@@ -1,5 +1,3 @@
-/*jshint dojo:true browser:true strict:false devel:true */
-/*global define:true */
 define([
     'lodash',
     'dojo/_base/declare', "dojo/_base/window", 'dojo/_base/lang', 'dojo/Deferred',
@@ -51,7 +49,7 @@ define([
                 return object[this.idProperty];
             },
 
-            query: function(query, options) {
+            query: function(query) {
                 console.log(query);
                 if(this._results) {
                     this._results.cancel();
@@ -98,7 +96,7 @@ define([
                     return addresses.length;
                 });
 
-                return QueryResults(this._results);
+                return new QueryResults(this._results);
             },
 
             _setBoundingBoxAttr: function(bounds) {

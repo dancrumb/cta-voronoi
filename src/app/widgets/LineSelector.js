@@ -1,5 +1,3 @@
-/*jshint dojo:true browser:true strict:false devel:true */
-/*global define:true */
 define([
     'lodash',
     'dojo/_base/declare', "dojo/_base/window", 'dojo/_base/lang',

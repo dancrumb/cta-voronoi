@@ -1,5 +1,5 @@
-/*jshint dojo:true browser:true strict:false devel:true */
-/*global define:true */
+/** jshint dojo:true browser:true strict:false devel:true */
+/** global define:true */
 define([
     'dojo/_base/declare',
     'dojo/dom-construct', 'dojo/_base/lang', 'dojo/_base/window',

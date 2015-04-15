@@ -1,5 +1,3 @@
-/*jshint dojo:true browser:true devel:true */
-/*global define:true */
 define(["lodash"], function(_){
     'use strict';
     var STARTPOS = "M 0 0 ";
