@@ -1,5 +1,3 @@
-/*jshint dojo:true browser:true strict:false devel:true */
-/*global define:true */
 require(['lodash', 'amd/d3',
     "dojo/_base/window", "dojo/_base/lang",
     'dojo/json',
@@ -151,7 +149,7 @@ require(['lodash', 'amd/d3',
                             .value();
                     };
 
-                    var boundingRegion = d3.geom.polygon(d3.geom.hull(cookCounty).reverse());
+                    var boundingRegion = d3.geom.polygon(d3.geom.hull(cookCounty));
                     if (boundingRegion.area() < 0) {
                         console.error("Bounding area is not counterclockwise!");
                     }

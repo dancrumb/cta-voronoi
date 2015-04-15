@@ -1,5 +1,3 @@
-/*jshint dojo:true browser:true strict:false devel:true */
-/*global define:true */
 define(['lodash','dojo/_base/declare','dojo/Stateful'], function(_, declare, Stateful) {
 
     var LINE_LIST = ["Brown", "Blue","Purple","Yellow","Orange","Red","Pink", "Green"].sort();

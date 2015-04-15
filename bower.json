@@ -1,0 +1,23 @@
+{
+  "name": "cta-voronoi",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dancrumb/cta-voronoi",
+  "description": "Voronoi Diagram of CTA stops",
+  "authors": [
+    "Dan Rumney <dancrumb@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "~3.6.0",
+    "d3": "~3.5.5",
+    "dojo": "~1.10.4",
+    "dijit": "~1.10.4"
+  }
+}

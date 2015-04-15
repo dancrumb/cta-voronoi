@@ -19,7 +19,7 @@ define([
                     sensor: false
                 },
                 jsonp: 'callback'
-            }).then(function(data) {
+            }).then(function() {
                     loadCallback(kernel.global.google.maps);
                 },
                 function(err) {

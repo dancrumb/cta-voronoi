@@ -63,7 +63,7 @@ require(['fs', 'lodash'],
                     } else {
                         console.info("Wrote processed CTA data");
                     }
-                })
+                });
             }
         });
 
