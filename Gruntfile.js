@@ -12,7 +12,7 @@ module.exports = function (grunt) {
         // Task configuration
         clean: {
             dist: {
-                src: ['dist/*']
+                src: ['dist/*', 'node_modules/*', 'bower_components/*']
             }
         },
         copy: {
@@ -22,32 +22,14 @@ module.exports = function (grunt) {
                     {expand: true, cwd: 'src', src: ['*/**'], dest: 'dist/js'},
                     {expand: true, src: 'index.html', dest: 'dist', cwd: 'src'}
                 ]            
-            },
+            }
         },
         jshint: {
             options: {
-                node: false,
-                dojo: true,
-                curly: true,
-                eqeqeq: true,
-                immed: true,
-                latedef: true,
-                newcap: true,
-                noarg: true,
-                sub: true,
-                undef: true,
-                eqnull: true,
-                browser: true,
-                devel: true,
-                globals: { 
-                    define: true,
-                    require: true,
-                    module: true
-                },
-                boss: true
+                jshintrc: true
             },
             gruntfile: {
-                src: 'gruntfile.js'
+                src: 'Gruntfile.js'
             },
             lib_test: {
                 src: ['src/**/*.js']
@@ -66,6 +48,34 @@ module.exports = function (grunt) {
                 files: 'src/**',
                 tasks: ['less','copy']
             }
+        },
+        aws: {
+            AWSAccessKeyId: process.env.AWS_ACCESS_KEY,
+            AWSSecretKey: process.env.AWS_SECRET_KEY,
+            bucket: "cta-voronoi"
+        },
+        aws_s3: {
+            options: {
+                region: 'us-east-1',
+                uploadConcurrency: 5, // 5 simultaneous uploads
+                downloadConcurrency: 5 // 5 simultaneous downloads
+            },
+            production: {
+                options: {
+                    bucket: '<%= aws.bucket %>'
+                },
+                files: [
+                    {expand: true, cwd: 'dist/', src: ['**'], dest: '/'}
+                ]
+            },
+            clean_production: {
+                options: {
+                    bucket: '<%= aws.bucket %>'
+                },
+                files: [
+                    {dest: '/', action: 'delete'}
+                ]
+            }
         }
     });
 
@@ -77,6 +87,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-dojo');
+    grunt.loadNpmTasks('grunt-aws-s3');
 
     // Default task
     grunt.registerTask('default', ['jshint', 'clean:dist', 'less', 'copy']);

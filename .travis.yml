@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+- '0.12'
+before_script:
+- npm install -g grunt-cli codeclimate-test-reporter istanbul
+- git config --global push.default matching
+- git config --global user.email "dancrumb@gmail.com"
+- git config --global user.name "Travis-CI"
+deploy:
+  provider: s3
+  access_key_id: AKIAJLJL2MM4VPOTMUNA
+  secret_access_key:
+    secure: I6QzimiFpohetNUDn/5fOc8U8DydHSA3iLsEyncgB6cAR8XbJqnIhxK12LHDMd5tWlwNUd+slnKjN0aG8RTBan0FP70s57c+BCxG5xVEstADLak7bqVZcHB41TsNjEspfyj4+LqPVLU93Kilinv7RQ2yq4e5fsL43Dp2XTzAVFs=
+  bucket: cta-voronoi
+  local-dir: dist
+  upload-dir: "/"
+  acl: public_read
+  on:
+    repo: dancrumb/cta-voronoi
