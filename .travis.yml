@@ -2,10 +2,12 @@ language: node_js
 node_js:
 - '0.12'
 before_script:
-- npm install -g grunt-cli codeclimate-test-reporter istanbul
+- npm install -g grunt-cli bower
 - git config --global push.default matching
 - git config --global user.email "dancrumb@gmail.com"
 - git config --global user.name "Travis-CI"
+- bower install
+- grunt
 deploy:
   provider: s3
   access_key_id: AKIAJLJL2MM4VPOTMUNA
