@@ -15,7 +15,7 @@ deploy:
     secure: I6QzimiFpohetNUDn/5fOc8U8DydHSA3iLsEyncgB6cAR8XbJqnIhxK12LHDMd5tWlwNUd+slnKjN0aG8RTBan0FP70s57c+BCxG5xVEstADLak7bqVZcHB41TsNjEspfyj4+LqPVLU93Kilinv7RQ2yq4e5fsL43Dp2XTzAVFs=
   bucket: cta-voronoi
   local-dir: dist
-  upload-dir: "/"
   acl: public_read
+  skip_cleanup: true
   on:
     repo: dancrumb/cta-voronoi
