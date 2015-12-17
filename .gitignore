@@ -6,4 +6,4 @@ bower_components/
 dist/
 
 gmaps-api.key
-env
+/env
