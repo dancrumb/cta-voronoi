@@ -11,8 +11,11 @@ module.exports = function (grunt) {
             ' Licensed <%= props.license %> */\n',
         // Task configuration
         clean: {
-            dist: {
+            all: {
                 src: ['dist/*', 'node_modules/*', 'bower_components/*']
+            },
+            dist: {
+                src: ['dist/*']
             }
         },
         copy: {
