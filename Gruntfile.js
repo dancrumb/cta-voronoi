@@ -16,7 +16,18 @@ module.exports = function (grunt) {
             },
             dist: {
                 src: ['dist/*']
-            }
+            },
+          dijitThemes: {
+            src: [
+              'bower_components/dijit/themes/*/*',
+              '!bower_components/dijit/themes/claro/*'
+            ]
+          },
+          dijitTests: {
+            src: [
+              'bower_components/dijit/tests/*'
+            ]
+          }
         },
         copy: {
             dist: {
@@ -93,6 +104,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-aws-s3');
 
     // Default task
-    grunt.registerTask('default', ['jshint', 'clean:dist', 'less', 'copy']);
+    grunt.registerTask('default', ['jshint', 'clean:dist', 'clean:dijitThemes', 'clean:dijitTests', 'less', 'copy']);
 };
 

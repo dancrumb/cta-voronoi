@@ -1,4 +1,4 @@
-CTA Voronoi
+    CTA Voronoi
 ===========
 
 Generates Voronoi diagrams based on CTA station locations.
