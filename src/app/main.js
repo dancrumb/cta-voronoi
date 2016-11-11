@@ -46,11 +46,11 @@ require(['lodash', 'amd/d3',
             registry.byId('finder').set('boundingBox', cookCountyBB);
 
             var getLocation = (function () {
-                if (navigator.geolocation) {
-                    return function (callback, errback) {
-                        navigator.geolocation.getCurrentPosition(callback, errback);
-                    };
-                } else {
+                //if (navigator.geolocation) {
+                //    return function (callback, errback) {
+                //        navigator.geolocation.getCurrentPosition(callback, errback);
+                //    };
+                //} else {
                     return function (callback) {
                         callback(
                             {
@@ -67,7 +67,7 @@ require(['lodash', 'amd/d3',
                             }
                         );
                     };
-                }
+                //}
             })();
 
 
