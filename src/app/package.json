@@ -5,7 +5,7 @@
     "dojoBuild": "../profiles/app.profile.js",
     "dependencies": {
         "dojo"  : "1.8.3",
-        "lodash": "1.0.0",
+        "lodash": "4.17.15",
         "d3"    : "3.0.2"
     }
 }
