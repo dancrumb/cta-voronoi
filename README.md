@@ -3,17 +3,11 @@ CTA Voronoi
 
 Generates Voronoi diagrams based on CTA station locations.
 
-Before Running
---------------
-The first thing you will need to do is run
+First, run `npm install`
 
-    ant prebuild
+If you have a Google Maps API key, put it into `src/amd/gmaps-api.key`.
 
-That will move a copy of the relevant lodash and d3 files into the `src` directory
+Next, run `npm run build`.
 
-Next, you need to add a file `/src/amd/gmaps-api.key` that contains your Google Maps API key on a single line.
-The app will fail if you do not.
+Finally, run `npm run start`.
 
-Running locally
----------------
-`cd`ing to `src` and running the node `http-server` will get you going immediately.

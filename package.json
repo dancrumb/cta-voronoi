@@ -4,7 +4,10 @@
   "description": "Voronoi Diagram of CTA stop",
   "main": "index.js",
   "scripts": {
-    "test": "grunt jshint"
+    "test": "grunt jshint",
+    "install": "npx bower install && touch src/amd/gmaps-api.key",
+    "build": "npx grunt",
+    "start": "npx http-server dist"
   },
   "repository": {
     "type": "git",
