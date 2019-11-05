@@ -11,3 +11,9 @@ Next, run `npm run build`.
 
 Finally, run `npm run start`.
 
+## What it looks like
+
+Here's a screenshot of what you can expect to see:
+
+
+![Screenshot](voronoi.png "Screenshot")
