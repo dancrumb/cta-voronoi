@@ -1,3 +1,5 @@
+:sleeping_bed: **This repo is now archived** :sleeping_bed:
+
 CTA Voronoi
 ===========
 
